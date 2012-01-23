@@ -17,3 +17,32 @@
   You should have received a copy of the GNU General Public License 
   along with this program. If not, see <http://www.gnu.org/licenses/>. 
 */
+
+
+/* ****************************************************************************** */
+/* ****************************** Includes ************************************** */
+/* ****************************************************************************** */
+
+#include <Wire.h>
+#include <arducuff.h>
+#include <Math.h>
+#include <MCP23008.h> //MCP23008 I/O expander
+MCP23008 mcp;
+#define VER  0.1    // Software version 
+
+
+
+
+
+void setup()
+{
+Serial.begin(115200);
+mcp.begin();      // use default address 0
+
+
+}
+
+void loop()
+{
+
+}

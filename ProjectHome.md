@@ -1,0 +1,1 @@
+ArduCuff is a open source blood pressure monitoring system based on the famous Arduino platform
